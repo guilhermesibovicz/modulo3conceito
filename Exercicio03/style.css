@@ -1,0 +1,52 @@
+.imagem {
+    grid-area: imagem;
+} 
+img{
+    width: 100%;
+}
+.topo {
+    font-size: 2rem;
+    text-align: center;
+    grid-area: topo;
+    
+}
+
+.texto1 {
+    grid-area: texto1;
+    text-align: justify;
+}
+.texto2 {
+    grid-area: texto2;
+    text-align: justify;
+}
+.texto3 {
+    grid-area: texto3;
+    text-align: justify;
+}
+.texto4 {
+    grid-area: texto4;
+    text-align: justify;
+}
+.texto5 {
+    grid-area: texto5;
+    text-align: justify;
+}
+.rodape {
+    grid-area: rodape;
+    text-align: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: 2fr 3fr 5fr;
+    grid-template: 
+        'topo topo topo'
+        'imagem texto1 texto5'   
+        'imagem texto2 texto5'
+        '.  texto3 texto5'
+        '.  texto4 texto5'
+        'rodape rodape rodape';
+    grid-gap: 2rem;
+    max-width: 970px;
+    margin: autos;
+    
+}

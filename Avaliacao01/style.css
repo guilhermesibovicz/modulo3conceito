@@ -1,0 +1,53 @@
+h2 {
+    color:red;
+}
+
+h5 {
+    color:rgb(255, 1, 1)
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.button {
+    background: rgb(6, 185, 255);
+}
+
+.servicos {
+    margin: auto 1em;
+}
+
+.clientes {
+    margin: auto 1em;
+    display: grid;
+    grid-template: 
+        'logo01 . logo02 . logo03';
+    grid-gap: 10px;
+    padding: 20px;
+}
+
+.contato{
+    margin: auto 1em;
+}
+
+.logo01 {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.logo02 {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.logo03 {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.botao {
+    background: papayawhip;
+}
+

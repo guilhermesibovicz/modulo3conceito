@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+nav {
+    background-color: rgb(187, 207, 212);
+    border-radius: 5px;
+    padding: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+ul li {
+    display: inline;
+    padding: 10pxs;
+}
+a {
+    color: rgb(211, 73, 73);
+    text-decoration: none;
+}
+a:hover {
+    color:rgb(118, 247, 12)
+}
+.fundoverde {
+    background-color: green;
+}
+.fundoazul {
+    background-color: blue;
+}

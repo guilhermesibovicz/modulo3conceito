@@ -1,0 +1,67 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    max-width: 960px;
+    margin: auto;
+}
+
+.main {
+    border: 1px solid black;
+    display: grid;
+    grid-template: 
+        'topo topo'
+        'posicao1 posicao2'
+        'posicao3 posicao4'
+        'footer footer';
+    grid-gap: 20px;
+    padding: 30px;
+}
+
+.imagem {
+    border: 1px solid black;
+    grid-area: topo;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+.botton-right {
+    border: 1px solid white;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 22px;
+}
+
+.artigo1 {
+    border: 1px solid black;
+    grid-area: posicao1;
+    padding: 10px;
+    
+}
+.artigo2 {
+    border: 1px solid black;
+    grid-area: posicao2;
+    padding: 10px;
+    padding: auto;
+}
+.artigo3 {
+    border: 1px solid black;
+    grid-area: posicao3;
+    padding: 10px;
+}
+.artigo4 {
+    border: 1px solid black;
+    grid-area: posicao4;
+    padding: 10px;
+}
+
+.rodape {
+    border: 1px solid black;
+    grid-area: footer;
+}
+

@@ -1,0 +1,20 @@
+/* seletor de classe*/
+.base {
+    background-color:aqua ;
+    width: 400px;
+    height: 400px;
+    border: solid 1 px;
+}
+.filho1 {
+    background-color:darkcyan;
+    width: 120px;
+    height: 120px;
+    border: solid 1 px;
+}
+.filho2 {
+    background-color:royalblue;
+    width: 120px;
+    height: 120px;
+    border: solid 1 px;
+    margin-top: -40px;
+}
